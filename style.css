@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+  color: #9b9797;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.left {
+  width: 30%;
+}
+
+h1 {
+  font-family: 'Cormorant', serif;
+  font-family: 'Ephesis', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h4 {
+  font-family: 'Cormorant', serif;
+  font-family: 'Ephesis', cursive;
+  font-size: 10px;
+}
+
+h1 span {
+  color: #2b631f;
+
+}
+
+.left>p {
+  margin: 30px auto;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+#whatsapp {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 2px;
+  line-height: 1rem;
+}
+
+span#number {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+#contact i {
+  color: #fff;
+  font-size: 30px;
+}
+
+.social-icons {
+  margin: 30px 0;
+}
+
+.social-icons>.fa-brands {
+  color: #9b9797;
+  background-color: transparent;
+  border-radius: 50%;
+  background-position: center center;
+  padding: 10px;
+  border: 1px solid #9b9797;
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 40%;
+}
+
+.right>div {
+  width: 30%;
+}
+
+.right h6 {
+  color: #2b631f;
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.right ul li{
+  /* border: 1px solid red; */
+  list-style-type: none;
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+/* Selektim me pasardhes i div-it te fundit */
+.right div:last-child {
+  width: 100%;
+  margin: 30px 0;
+  
+}
+
+/* Selektim me id dhe pasardhes */
+#termsAndCopy ul li {
+  display: inline-block;
+  border-right: 1px solid #9b9797;
+  padding: 0 10px;
+}
+
+#termsAndCopy ul li:first-of-type {
+  padding-left: 0;
+}
+#termsAndCopy ul li:last-of-type {
+  padding-right: 0;
+  border: none;
+}
